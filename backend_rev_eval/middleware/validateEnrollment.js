@@ -13,9 +13,10 @@ if(!course_id) res.status(400).res.json({message:"couse id is required"})
 }
 }
 
+next();
+
 }
 
-next();
 
 
 export default validateEnrollment
